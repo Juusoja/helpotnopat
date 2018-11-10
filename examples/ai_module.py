@@ -14,6 +14,8 @@ class Ai(object):
         self.name = name
 	self.game_state = ""
 
+	""" YOUR CODE HERE """
+
     def set_info(self, state):
         """Use this method to give the game state to the AI
         """
