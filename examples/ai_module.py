@@ -1,3 +1,5 @@
+import json
+
 class Ai(object):
 
     """ This module is an AI used to make decision in the game.

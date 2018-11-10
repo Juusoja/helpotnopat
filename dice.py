@@ -1,3 +1,5 @@
+import random
+
 class Dice(object):
 
     """ This object implements the dice used in the game.
