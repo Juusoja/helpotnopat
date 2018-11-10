@@ -1,0 +1,10 @@
+{
+  "players": 3,
+  "starting_dice": 6,
+  "player_status":[
+    {"player1": "name1", "dice": 4},
+    {"player2": "name2", "dice": [3,3,4,2]},
+    {"player3": "name3", "dice": 3}
+  ]
+}
+
