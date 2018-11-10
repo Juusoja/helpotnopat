@@ -23,6 +23,11 @@ class Ai(object):
 	except ValueError:
 	    return 1
 
+	self.hand =
+	self.previous_call =
+	self.players = 
+	
+
     def get_action(self, n):
         """Use this method to get action base on the given game info.
         """
@@ -37,9 +42,14 @@ class Ai(object):
 
 	
 
+	if (previous action)
+
         return 0
 
-    def get_dice_count()
+    def get_dice_count(self):
 
-	
+	sum = 0
+	for i in range(len(self.gamestate['player_status'])):
+	    sum += self.gamestate['player_status'][i]['dice']
+	return sum
 
