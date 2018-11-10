@@ -19,3 +19,6 @@ class Player:
 
     def get_dice_count(self):
         return self.dice_count
+
+    def count_dice_with_face(self, face):
+        return self.hand.count(face)
