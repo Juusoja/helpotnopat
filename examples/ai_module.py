@@ -29,14 +29,14 @@ class Ai(object):
         """Use this method to get action base on the given game info.
         """
 
-	""" Options to return: 
-		1) Raise: return list with first index denoting the number
-			of dices, the second their pips.
-			Example: [2,4] -> "There are atleast two fours"
-		2) Doubt: return [0]
-		3) Exact: return [-1]
+	""" Options to return:
+		1) Raise: return an integer with first number denoting the number
+			of dices, the second their face.
+			Example: 24 -> "There are atleast two fours"
+		2) Doubt: return 0
+		3) Exact: return 1
 
 
 	""" YOUR CODE HERE """
 
-        return [-1]
+        return 0

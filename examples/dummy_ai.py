@@ -1,4 +1,5 @@
 import json
+import random
 
 class Ai(object):
 
@@ -27,13 +28,18 @@ class Ai(object):
         """
 
 	""" Options to return:
-		1) Raise: return list with first index denoting the number
-			of dices, the second their pips.
-			Example: [2,4] -> "There are atleast two fours"
-		2) Doubt: return [0]
-		3) Exact: return [-1]
+		1) Raise: return an integer with first number denoting the number
+			of dices, the second their face.
+			Example: 24 -> "There are atleast two fours"
+		2) Doubt: return 0
+		3) Exact: return 1
 	"""
 
 	
 
-        return [-1]
+        return 0
+
+    def get_dice_count()
+
+	
+
