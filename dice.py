@@ -1,3 +1,5 @@
+import random
+
 class Dice(object):
 
     """ This object implements the dice used in the game.
@@ -5,10 +7,9 @@ class Dice(object):
 
     """
 
-    def __init__(self, name):
+    def __init__(self):
         """Return a Dice object whose name is *name*.
 	"""
-        self.name = name
 
     def throw(self, n):
         """Return the result of throwing n dice.

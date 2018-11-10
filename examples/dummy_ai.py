@@ -1,5 +1,4 @@
 import json
-""" YOUR CODE HERE """
 
 class Ai(object):
 
@@ -14,13 +13,11 @@ class Ai(object):
         self.name = name
 	self.game_state = ""
 
-	""" YOUR CODE HERE """
-
     def set_info(self, state):
         """Use this method to give the game state to the AI
         """
 	try :
-            self.game_state = json.loads(state) 
+            self.game_state = json.loads(state)
 	    return 0
 	except ValueError:
 	    return 1
@@ -29,14 +26,14 @@ class Ai(object):
         """Use this method to get action base on the given game info.
         """
 
-	""" Options to return: 
+	""" Options to return:
 		1) Raise: return list with first index denoting the number
 			of dices, the second their pips.
 			Example: [2,4] -> "There are atleast two fours"
 		2) Doubt: return [0]
 		3) Exact: return [-1]
+	"""
 
-
-	""" YOUR CODE HERE """
+	
 
         return [-1]
