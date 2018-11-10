@@ -20,7 +20,6 @@ class Ai(object):
 
 	try :
             self.game_state = json.loads(state)
-	    return 0
 	except ValueError:
 	    return 1
 
