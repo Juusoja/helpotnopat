@@ -16,16 +16,14 @@ class Ai(object):
 
 	""" YOUR CODE HERE """
 
-    def set_info(self, state):
+    def get_action(self, state):
         """Use this method to give the game state to the AI
         """
 	try :
-            self.game_state = json.loads(state) 
-	    return 0
+            self.game_state = json.loads(state)
 	except ValueError:
 	    return 1
 
-    def get_action(self, n):
         """Use this method to get action base on the given game info.
         """
 
