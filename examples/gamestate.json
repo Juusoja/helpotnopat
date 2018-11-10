@@ -1,11 +1,11 @@
 {
   "players": 3,
-  "starting_dice": 6,
-  "previous_call": [3,3],
+  "previous_call": [5,4],
+  "hand": [3,3,4,2],
   "player_status":[
-    {"player1": "sami", "dice": 3, "previous_action": [3,3]},
-    {"player2": "jug", "dice": 4, "hand": [3,3,4,2]},
-    {"player3": "nosse", "dice": 3, "previous_action": [2,3]}
+    {"player_name": "sami", "dice": 3, "previous_actions": [[2,2],[3,3],[5,4]]},
+    {"player_name": "jugs", "dice": 4, "previous_actions": [[2,3],[3,4]]},
+    {"player_name": "luke", "dice": 3, "previous_actions": [[3,3],[4,4]]}
   ]
 }
 
